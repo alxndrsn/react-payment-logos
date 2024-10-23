@@ -32,7 +32,7 @@ Import the icon components based on your preferred style and payment method:
 ```jsx
 import React from 'react';
 import { Mastercard, Visa, Paypal } from 'react-payment-logos/dist/flat';
-// or
+// or to allow tree-shaking:
 // import Mastercard from 'react-payment-logos/dist/flat/Mastercard';
 
 function App() {
